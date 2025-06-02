@@ -1,0 +1,12 @@
+{
+  "output/quantum_vqe_simulation_20250602_163720/data/circuits/circuits_20250602_163720.pkl.gz": {
+    "file_path": "circuits/circuits_20250602_163720.pkl.gz",
+    "format": "pkl.gz",
+    "created_at": "2025-06-02T16:37:20.622920",
+    "size_bytes": 132729,
+    "checksum": "bf366a0f53dfd9d24e970ee06ef03304",
+    "version": "1.0",
+    "description": "Generated 100 TFIM circuits with 4 qubits",
+    "tags": []
+  }
+}

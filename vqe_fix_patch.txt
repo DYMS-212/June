@@ -1,0 +1,21 @@
+
+# 临时修复 - 在您的VQE仿真器__init__方法中添加以下行：
+
+# 在 super().__init__(...) 之后添加：
+self.original_loggers = {}
+self.logging_filters = []
+self.logging_suppression_active = False
+
+# 在 cleanup 方法中使用安全检查：
+def cleanup(self):
+    try:
+        if hasattr(self, '_restore_logging'):
+            self._restore_logging()
+        if hasattr(self, 'estimator'):
+            self.estimator = None
+        if hasattr(self, 'optimizer'):
+            self.optimizer = None
+        self.logger.info("VQE simulator cleanup complete")
+    except Exception as e:
+        if hasattr(self, 'logger'):
+            self.logger.warning(f"Cleanup issues: {e}")

@@ -1,0 +1,120 @@
+# configs/default.yaml
+# Quantum VQE Simulation Project - Default Configuration
+
+# 项目基本信息
+project:
+  name: "quantum_vqe_simulation"
+  version: "1.0.0"
+  description: "Quantum VQE Circuit Simulation with TFIM Model"
+  base_output_dir: "output"
+  timestamp_dirs: true  # 是否在输出目录中添加时间戳
+
+# 量子电路生成配置
+circuit_generation:
+  num_circuits: 5000      # 生成电路数量
+  num_qubits: 8           # 量子比特数
+  max_depth: 50           # 最大电路深度
+  max_gates: 48           # 最大门数量
+  gate_stddev: 1.35       # 门选择标准差
+  gate_bias: 0.5          # 单量子比特门偏置
+  
+  # TFIM模型参数
+  tfim_J: 1.0            # 相互作用强度
+  tfim_g: 1.0            # 横场强度
+  
+  # 生成器设置
+  generator_type: "layerwise"  # 生成器类型: layerwise, gatewise
+  deduplication: true          # 是否去重
+
+# VQE无噪声仿真配置
+vqe:
+  enabled: true              # 是否启用VQE仿真
+  batch_size: 100           # 批处理大小
+  max_workers: null         # 最大并行进程数 (null = 自动检测)
+  n_repeat: 1               # 每个电路重复次数(选择最好结果)
+  
+  # 优化器设置
+  optimizer: "L_BFGS_B"     # 优化器: L_BFGS_B, SPSA, COBYLA
+  max_iterations: 1000      # 最大迭代次数
+  convergence_threshold: 1.0e-6  # 收敛阈值
+  
+  # 输出控制
+  verbose: false            # 是否显示详细输出
+  suppress_optimizer_output: true  # 是否抑制优化器输出
+  
+  # 优化器特定选项
+  optimizer_options:
+    disp: false
+    iprint: -1
+
+# 表达性计算配置
+expressibility:
+  enabled: true             # 是否启用表达性计算
+  samples: 5000            # 采样数量
+  bins: 75                 # 直方图箱数
+  batch_size: 100          # 批处理大小
+  max_workers: null        # 最大并行进程数
+  parallel_computation: true  # 是否并行计算
+
+# 含噪声VQE仿真配置
+noisy_vqe:
+  enabled: false           # 是否启用含噪声VQE (计算量大，默认关闭)
+  batch_size: 50          # 批处理大小 (较小，因为计算更慢)
+  max_workers: null       # 最大并行进程数
+  
+  # 噪声模型参数
+  single_qubit_error: 0.001    # 单量子比特门错误率
+  two_qubit_error: 0.01        # 双量子比特门错误率
+  t1_time: 50.0e-6            # T1弛豫时间 (秒)
+  t2_time: 20.0e-6            # T2相干时间 (秒)
+  gate_time_1q: 50.0e-9       # 单量子比特门时间 (秒)
+  gate_time_2q: 200.0e-9      # 双量子比特门时间 (秒)
+  
+  # 量子后端设置
+  shot_count: 1024            # 测量次数
+  backend_method: "density_matrix"  # 后端方法
+
+# 存储配置
+storage:
+  base_dir: "data"         # 数据存储基础目录
+  compression: true        # 是否启用压缩
+  backup_enabled: true     # 是否启用自动备份
+  metadata_enabled: true   # 是否启用元数据记录
+  
+  # 文件格式设置
+  circuit_format: "pkl"    # 电路存储格式: pkl, pkl.gz
+  results_format: "json"   # 结果存储格式: json, pkl, hdf5
+  metadata_format: "json"  # 元数据格式
+
+# 日志配置
+logging:
+  level: "INFO"            # 日志级别: DEBUG, INFO, WARNING, ERROR
+  format_type: "human"     # 日志格式: human, structured
+  file_rotation: true      # 是否启用文件轮转
+  max_size: "100MB"        # 单个日志文件最大大小
+  backup_count: 5          # 保留的日志文件数量
+  enable_console: true     # 是否启用控制台输出
+  log_dir: "logs"          # 日志目录
+
+# 进度显示配置
+progress:
+  show_overall_progress: true     # 是否显示总体进度条
+  show_individual_progress: true  # 是否显示各个任务进度条
+  log_interval: 10               # 日志记录间隔 (百分比)
+  update_frequency: 1.0          # 进度更新频率 (秒)
+
+# 运行时配置 (可在命令行中覆盖)
+runtime:
+  # 可以选择性运行的步骤
+  steps:
+    generate_circuits: true    # 是否生成电路
+    run_vqe: true             # 是否运行VQE
+    run_expressibility: true  # 是否计算表达性
+    run_noisy_vqe: false      # 是否运行含噪声VQE
+    
+  # 电路文件设置 (如果不生成新电路)
+  existing_circuits_file: null  # 使用已有电路文件路径
+  
+  # 输出设置
+  save_intermediate: true    # 是否保存中间结果
+  generate_analysis: true    # 是否生成分析报告

@@ -1,0 +1,218 @@
+2025-06-02 16:37:20 - quantum_vqe_simulation.pipeline - INFO - TFIM model setup: 4 qubits, J=1.0, g=1.0
+2025-06-02 16:37:20 - quantum_vqe_simulation.pipeline - INFO - Exact ground state energy: -5.226252
+2025-06-02 16:37:20 - quantum_vqe_simulation.pipeline - INFO - Pipeline initialized: quantum_vqe_simulation v1.0.0
+2025-06-02 16:37:20 - quantum_vqe_simulation.pipeline - INFO - Output directory: output/quantum_vqe_simulation_20250602_163720
+2025-06-02 16:37:20 - quantum_vqe_simulation.pipeline - INFO - ============================================================
+2025-06-02 16:37:20 - quantum_vqe_simulation.pipeline - INFO - Starting full pipeline: quantum_vqe_simulation
+2025-06-02 16:37:20 - quantum_vqe_simulation.pipeline - INFO - ============================================================
+2025-06-02 16:37:20 - quantum_vqe_simulation.pipeline - INFO - Starting circuit generation...
+2025-06-02 16:37:20 - quantum_vqe_simulation.progress.circuit_generation - INFO - Started tracking task 'circuit_generation' with 100 items
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Starting to generate 100 TFIM quantum circuits...
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Added initial H layer with 4 H gates
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - Generated TFIM circuit with 52 gates in 25 layers (including initial H layer)
+2025-06-02 16:37:20 - quantum_vqe_simulation.circuit_generator - INFO - All TFIM circuits generated successfully.
+2025-06-02 16:37:20 - quantum_vqe_simulation - INFO - circuit_generation simulation progress: 100.0%
+2025-06-02 16:37:20 - quantum_vqe_simulation.progress.circuit_generation - INFO - Task 'circuit_generation' completed in 0.14s (avg rate: 722.55 items/s)
+2025-06-02 16:37:20 - quantum_vqe_simulation.storage - INFO - Saved 100 circuits to output/quantum_vqe_simulation_20250602_163720/data/circuits/circuits_20250602_163720.pkl.gz
+2025-06-02 16:37:20 - quantum_vqe_simulation.pipeline - INFO - Generated 100 circuits in 0.16s, saved to output/quantum_vqe_simulation_20250602_163720/data/circuits/circuits_20250602_163720.pkl.gz
+2025-06-02 16:37:20 - quantum_vqe_simulation.pipeline - INFO - Starting VQE simulation...
+2025-06-02 16:37:20 - quantum_vqe_simulation.pipeline - ERROR - Pipeline failed: 'VQESimulator' object has no attribute 'original_loggers'
+2025-06-02 16:37:20 - quantum_vqe_simulation.pipeline - INFO - Pipeline cleanup completed

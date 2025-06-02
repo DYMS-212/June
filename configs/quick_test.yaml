@@ -1,0 +1,72 @@
+_metadata:
+  config_file_version: '1.0'
+  created_at: '2025-06-02T16:29:05.547584'
+  version: 1.0.0
+circuit_generation:
+  deduplication: true
+  gate_bias: 0.5
+  gate_stddev: 1.35
+  generator_type: layerwise
+  max_depth: 50
+  max_gates: 48
+  num_circuits: 100
+  num_qubits: 4
+  tfim_J: 1.0
+  tfim_g: 1.0
+expressibility:
+  batch_size: 100
+  bins: 75
+  enabled: false
+  max_workers: null
+  parallel_computation: true
+  samples: 5000
+logging:
+  backup_count: 5
+  enable_console: true
+  file_rotation: true
+  format_type: human
+  level: INFO
+  log_dir: logs
+  max_size: 100MB
+noisy_vqe:
+  backend_method: density_matrix
+  batch_size: 50
+  enabled: false
+  gate_time_1q: 5.0e-08
+  gate_time_2q: 2.0e-07
+  max_workers: null
+  shot_count: 1024
+  single_qubit_error: 0.001
+  t1_time: 5.0e-05
+  t2_time: 2.0e-05
+  two_qubit_error: 0.01
+progress:
+  log_interval: 10
+  show_individual_progress: true
+  show_overall_progress: true
+  update_frequency: 1.0
+project:
+  base_output_dir: output
+  description: Quantum VQE Circuit Simulation Project
+  name: quantum_vqe_simulation
+  timestamp_dirs: true
+  version: 1.0.0
+storage:
+  backup_enabled: true
+  base_dir: data
+  circuit_format: pkl
+  compression: true
+  metadata_enabled: true
+  metadata_format: json
+  results_format: json
+vqe:
+  batch_size: 20
+  convergence_threshold: 1.0e-06
+  enabled: true
+  max_iterations: 1000
+  max_workers: null
+  n_repeat: 1
+  optimizer: L_BFGS_B
+  optimizer_options: {}
+  suppress_optimizer_output: true
+  verbose: false
